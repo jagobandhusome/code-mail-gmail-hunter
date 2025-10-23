@@ -27,7 +27,7 @@ def wrong_pass():
 def get_auth():
     username = input('Your Username: ')
     password = input('Input Your Password: ')
-    cluster = 'mongodb+srv://sarwar01:grhdwZAYcmATKIZr@cluster0.rtjft.mongodb.net/codemail?retryWrites=true&w=majority'
+    cluster = 'mongodb+srv://vvvvvvvv:nnnnnnn@cluster0.nnnn.mongodb.net/codemail?retryWrites=true&w=majority'
     client = MongoClient(cluster)
     db = client.codemail2
     user_id = db.auth
